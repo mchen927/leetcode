@@ -110,6 +110,8 @@ class Solution:
         return k
                 
 
+# FIND GOOD SKIP BAD
+
 #  for my approach i was using the for loop to find val and then try to find something to replace it with.
 #  however, the way i should have though about it is if you see val, justy iterate over it and use another
 #  variable to keep track of the next placement of val. and use the value at i to swap where the val is
