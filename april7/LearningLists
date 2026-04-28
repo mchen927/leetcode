@@ -1,0 +1,11 @@
+class ListNode:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+ListNode2.next = ListNode3
+ListNode3.next = null
+
+An advantage that Linked Lists have over arrays is that inserting a new element can be performed in O(1) time, 
+even if we insert in the middle.
+

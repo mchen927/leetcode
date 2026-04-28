@@ -15,9 +15,8 @@ class Solution:
     
         return maxCount
     
-    
 
-# INITIAL THOUGHTS
+# INITIAL THOUGHTS 
 # we make a global variable totalCount = 0. this is because we need to update this every time we see a bigger
 # count iteration. we also need to write somewhere to replace the global count if the temp count ends - which 
 # would be the case if the next number isn't 1 anymore and then set the new global count as the old temp count
