@@ -33,6 +33,7 @@ class Solution:
 #    track of the forward next iteration. so we do this by every time we are about to make the arrow flip,
 #     before this we make a temp variable tracking what the next iteration is after we do the arrow flip
 
+
 # one more thing is in the past i got confused whether to do x = y.next or y.next = x
 # so for ex:
 # curr.next = temp
@@ -82,3 +83,4 @@ class Solution:
 # A common mistake is swapping the order of the four steps. The order is rigid and here's why:
 # You must save next_node before flipping curr.next, because flipping destroys your forward path. And you must move prev before moving curr, because prev needs to land on curr's current position 
 # (not wherever curr is about to go). Think of it as two pairs: save then flip, advance prev then advance curr.
+
